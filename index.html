@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>PWA</title>
+    <style media="screen">
+
+      body{
+        text-align: center;
+        margin: 5% 5%;
+        background-color:#1f7a7a;
+      }
+
+      h1{
+        color: white;
+        font-style: italic;
+      }
+
+      .main-div{
+        margin: 20px;
+        padding: 10px;
+        background-color: #eee;
+        border-radius: 10px;
+        display: inline-block;
+      box-shadow: 10px 10px 29px 0px rgba(0,0,0,0.75);
+      }
+
+      .main-div div{
+
+        margin: 10px 50px;
+        display: inline-block;
+
+      }
+
+      .sub1,.sub2,.sub3{
+        width: 200px;
+        background-color:#fff;
+        border-radius: 20px;
+        box-shadow: 10px 10px 29px 0px rgba(0,0,0,0.75);
+        padding-bottom: 20px;
+      }
+
+
+      .sub1 p,.sub2 p,.sub3 p{
+        font-size: 19px;
+        font-weight: bold;
+        font-style: italic;
+      }
+
+      .sub1 a,.sub2 a,.sub3 a{
+        font-size: 19px;
+        font-weight: bold;
+        font-style: italic;
+        text-decoration: none;
+        padding: 10px;
+        background-color:#006666;
+        border-radius: 10px;
+        color: white;
+        box-shadow: 5px 5px 1px 0px rgba(0,0,0,0.75);
+      }
+
+      .heading{
+        font-size: 25px;
+      }
+
+      @media only screen and (max-width: 1024px) and (min-width:769px) {
+
+        body{
+
+          text-align: center;
+          margin: 0;
+          padding:0;
+          background-color:#1f7a7a;
+        }
+
+        h1{
+          color: white;
+          font-style: italic;
+        }
+
+        .main-div{
+          margin: 20px;
+          padding: 10px;
+          background-color: #eee;
+          border-radius: 10px;
+          box-shadow: none;
+        }
+
+        .main-div div{
+
+          margin: 10px 10px;
+          display: inline-block;
+
+        }
+
+
+    }
+
+
+
+  @media only screen and (max-width: 768px) and (min-width:431px) {
+
+    body{
+
+      text-align: center;
+      margin:auto;
+      background-color:#1f7a7a;
+    }
+
+    h1{
+      color: white;
+      font-style: italic;
+    }
+
+    .main-div{
+      margin: 20px;
+      padding: 10px;
+      background-color: #eee;
+      border-radius: 10px;
+      box-shadow: none;
+    }
+
+    .main-div div{
+
+      margin: 10px 10px;
+      display: inline-block;
+
+    }
+
+
+}
+
+@media only screen and (max-width: 430px) {
+
+  body{
+
+    margin: auto;
+    text-align: center;
+    background-color:#1f7a7a;
+  }
+
+  h1{
+    color: white;
+    font-style: italic;
+  }
+
+  .main-div{
+    margin: 10px;
+    padding: 10px;
+    background-color: #eee;
+    border-radius: 10px;
+    box-shadow: none;
+  }
+
+
+}
+
+    </style>
+  </head>
+  <body>
+
+    <h1>Profile Card</h1>
+
+    <div class="main-div">
+      <div class="sub1">
+          <img src="img/kal.jpg" class="img" width="200" height="200" alt="">
+          <h3 class="heading">Kalyan Saxena</h3>
+          <p>Software Programmer</p>
+          <a href="#">View Profile</a>
+
+      </div>
+
+      <div class="sub2">
+          <img src="img/kal.jpg" class="img" width="200" height="200" alt="">
+          <h3 class="heading">Kalyan Saxena</h3>
+          <p>Software Programmer</p>
+          <a href="#">View Profile</a>
+      </div>
+
+      <div class="sub3">
+          <img src="img/kal.jpg" class="img" width="200" height="200" alt="">
+          <h3 class="heading">Kalyan Saxena</h3>
+          <p>Software Programmer</p>
+          <a href="#">View Profile</a>
+      </div>
+    </div>
+
+  </body>
+</html>
