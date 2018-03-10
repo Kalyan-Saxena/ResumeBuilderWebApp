@@ -126,17 +126,26 @@
       margin: 10px 10px;
       display: inline-block;
 
+
+    }
+
+    .sub1,.sub2,.sub3{
+      width: 90%;
+      background-color:#fff;
+      border-radius: 20px;
+      box-shadow: 10px 10px 29px 0px rgba(0,0,0,0.75);
+      padding-bottom: 20px;
     }
 
 
 }
 
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 430px)  {
 
   body{
 
-    margin: auto;
     text-align: center;
+    margin:auto;
     background-color:#1f7a7a;
   }
 
@@ -146,15 +155,95 @@
   }
 
   .main-div{
-    margin: 10px;
+    margin: 20px;
     padding: 10px;
     background-color: #eee;
     border-radius: 10px;
     box-shadow: none;
   }
 
+  .main-div div{
+
+    margin: 10px 10px;
+    display: inline-block;
+
+
+  }
+
+  .sub1,.sub2,.sub3{
+    width: 90%;
+    background-color:#fff;
+    border-radius: 20px;
+    box-shadow: 10px 10px 29px 0px rgba(0,0,0,0.75);
+    padding-bottom: 20px;
+  }
+
+  .img{
+    width: 100%;
+  }
 
 }
+
+
+/*
+@media only screen and (max-width: 430px) {
+
+  body{
+
+    margin: 2%;
+    text-align: center;
+    background-color:#1f7a7a;
+  }
+
+  .main-div{
+    margin:0 6%;
+    padding: 10px;
+    background-color: #eee;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow:none;
+    height: auto;
+  }
+
+.main-div .sub1{
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  box-shadow: none;
+  padding-bottom: 0;
+
+}
+
+
+.main-div .sub1 .flexy{
+  margin:0;
+}
+
+.sub1 p,.sub2 p,.sub3 p{
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.sub1 a,.sub2 a,.sub3 a{
+  font-size: 19px;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: none;
+  padding: 10px;
+  background-color:#006666;
+  border-radius: 10px;
+  color: white;
+  box-shadow:none;
+}
+
+.heading{
+  font-size: 20px;
+}
+
+}
+*/
 
     </style>
   </head>
@@ -164,27 +253,35 @@
 
     <div class="main-div">
       <div class="sub1">
-          <img src="img/kal.jpg" class="img" width="200" height="200" alt="">
-          <h3 class="heading">Kalyan Saxena</h3>
-          <p>Software Programmer</p>
-          <a href="#">View Profile</a>
+
+            <img src="img/kal.jpg" class="img" width="200" height="200" alt="">
+
+              <h3 class="heading">Kalyan Saxena</h3>
+              <p>Software Programmer</p>
+              <a href="#" onclick="newPage()">View Profile</a>
+
 
       </div>
 
       <div class="sub2">
-          <img src="img/kal.jpg" class="img" width="200" height="200" alt="">
+          <img src="img/kal.jpg" class="img" width="200" height="200" alt="myimage">
           <h3 class="heading">Kalyan Saxena</h3>
           <p>Software Programmer</p>
-          <a href="#">View Profile</a>
+          <a href="#" onclick="sample()">View Profile</a>
       </div>
 
       <div class="sub3">
           <img src="img/kal.jpg" class="img" width="200" height="200" alt="">
           <h3 class="heading">Kalyan Saxena</h3>
           <p>Software Programmer</p>
-          <a href="#">View Profile</a>
+          <a href="#" onclick="newPage()" >View Profile</a>
       </div>
     </div>
 
+
+
+    <script src="script.js">
+
+    </script>
   </body>
 </html>

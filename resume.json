@@ -1,0 +1,99 @@
+{
+  "basics": {
+    "name": "Kalyan Saxena",
+    "label": "Student",
+    "picture": "img/image3.gif",
+    "email": "kalyansaxena123@gmail.com",
+    "phone": "9701169690",
+    "degree": "B.tech",
+    "website": "",
+    "summary": "",
+    "highlights": null,
+    "location": {
+      "address": "Sriram Nagar 11th Road,d-no:11-76",
+      "postalCode": "534002",
+      "city": "Eluru",
+      "countryCode": "",
+      "region": "Sriram Nagar"
+    },
+    "profiles": [
+      {
+        "network": "",
+        "username": "",
+        "url": ""
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "",
+      "position": "",
+      "website": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        ""
+      ]
+    }
+  ],
+  "additionalWork": [
+    {
+      "company": "",
+      "position": "",
+      "website": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        ""
+      ]
+    }
+  ],
+  "workLabel": "",
+  "additionalWorkLabel": "",
+  "education": [
+    {
+      "institution": "Sir CR Reddy College of Engineering",
+      "area": "Vatluru",
+      "studyType": "B.tech",
+      "startDate": "2015",
+      "endDate": "2019",
+      "gpa": "7.5",
+      "courses": [
+        "Computer Science"
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "name": "",
+      "publisher": "",
+      "releaseDate": "",
+      "website": "",
+      "summary": "",
+      "isbn": ""
+    }
+  ],
+  "additionalPublications": [
+    {
+      "name": "",
+      "publisher": "",
+      "releaseDate": "",
+      "website": "",
+      "summary": "",
+      "isbn": ""
+    }
+  ],
+  "publicationsLabel": "",
+  "additionalPublicationsLabel": "",
+  "skills": [
+    {
+      "name": "Web Developer",
+      "level": "",
+      "keywords": [
+        "HTML5,CSS3,JavaScript,Bootstrap,PHP,JSP"
+      ]
+    }
+  ]
+}
